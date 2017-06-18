@@ -1,4 +1,4 @@
-# ViperTemplate
+# VIPER-modular-template
 ![https://github.com/viplord/VIPER-modular-template/releases/tag/1.0](https://img.shields.io/badge/version-1.0-brightgreen.svg)
 
 Template to generate VIPER classes on Xcode.
