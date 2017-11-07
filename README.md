@@ -33,7 +33,7 @@ Manual
 - `WireFrame/WireFrame.swift`
 
 One more steps: The generated folder w'll be imported as a reference. We have to convert to a group. The simplest solution is to remove the folder reference manually and import them as a group.
-
+1
 <video src="https://www.dropbox.com/s/o2exx2895p3r9o0/Nov-07-2017%2014-05-27.mp4?raw=1" width="320" height="200" controls preload></video>
 
 
