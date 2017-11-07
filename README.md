@@ -34,11 +34,14 @@ Manual
 
 One more steps: The generated folder w'll be imported as a reference. We have to convert to a group. The simplest solution is to remove the folder reference manually and import them as a group.
 
+[See the video](https://www.dropbox.com/s/qaf18hhc626zc4n/Nov-07-2017%2014-42-17.gif?raw=1)
+
 1. Right click on the main module[moduleName].
 2. Select "Delete" button.
 3. Select "Remove Reference" button.
 4. Right click on module from your project where you want to add it.
 5. Select "Add files to [your-project-name]".
 6. Select generated VIPER module.
+
 
 This  is necessary to do because Xcode recognize generated files as simple folders and files.
