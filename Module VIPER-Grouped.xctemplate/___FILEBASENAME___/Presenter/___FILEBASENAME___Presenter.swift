@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
@@ -13,7 +13,7 @@ class ___VARIABLE_productName___Presenter {
 
     // MARK: Properties
 
-    weak var view: ___VARIABLE_productName___ViewProtocol?
+    weak var view: ___VARIABLE_productName___ViewControllerProtocol?
     var wireFrame: ___VARIABLE_productName___WireFrameProtocol?
     var interactor: ___VARIABLE_productName___InteractorInputProtocol?
 }

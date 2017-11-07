@@ -3,20 +3,20 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
 import UIKit
 
-protocol ___VARIABLE_productName___ViewProtocol:class {
+protocol ___VARIABLE_productName___ViewControllerProtocol:class {
     var presenter: ___VARIABLE_productName___PresenterProtocol? { get set }
     
     // TODO: Declare view methods
 }
 
 protocol ___VARIABLE_productName___PresenterProtocol: class {
-    var view: ___VARIABLE_productName___ViewProtocol? { get set }
+    var view: ___VARIABLE_productName___ViewControllerProtocol? { get set }
     var interactor: ___VARIABLE_productName___InteractorInputProtocol? { get set }
     var wireFrame: ___VARIABLE_productName___WireFrameProtocol? { get set }
 
