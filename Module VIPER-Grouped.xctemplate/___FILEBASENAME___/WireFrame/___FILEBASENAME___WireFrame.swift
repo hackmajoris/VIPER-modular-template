@@ -17,7 +17,7 @@ class ___VARIABLE_productName___WireFrame {
     static func createModule() -> UIViewController {
         
         // TODO: Put here the identifier of UIViewController
-        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "")
+        let viewController = ___VARIABLE_productName___Storyboard.instantiateViewController(withIdentifier: "")
        
         if let vc = viewController as? ___VARIABLE_productName___ViewController {
             let presenter: ___VARIABLE_productName___PresenterProtocol & ___VARIABLE_productName___InteractorOutputProtocol = ___VARIABLE_productName___Presenter()
@@ -38,10 +38,8 @@ class ___VARIABLE_productName___WireFrame {
         return UIViewController()
     }
     
-    static var mainStoryboard: UIStoryboard {
-        // TODO: Put your  ViewController storyboard name here
-        let storyboardName = "Main"
-        return UIStoryboard(name: storyboardName, bundle: Bundle.main)
+    static var ___VARIABLE_productName___Storyboard: UIStoryboard {
+        return UIStoryboard(name: "___VARIABLE_productName___", bundle: Bundle.main)
     }
     
 }

@@ -20,7 +20,7 @@ func moveTemplate(){
     let destinationPath = bash(command: "xcode-select", arguments: ["--print-path"]).appending(destinationRelativePath)
     do {
         if !fileManager.fileExists(atPath:"\(destinationPath)/\(templateName)"){
-        
+
             try fileManager.copyItem(atPath: templateName, toPath: "\(destinationPath)/\(templateName)")
             
             printInConsole("✅  Template installed succesfully 🎉. Enjoy it 🙂")
