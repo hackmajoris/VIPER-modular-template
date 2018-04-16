@@ -39,7 +39,7 @@ class ___VARIABLE_productName___WireFrame {
     }
     
     static var ___VARIABLE_productName___Storyboard: UIStoryboard {
-        return UIStoryboard(name: "___VARIABLE_productName___", bundle: Bundle.main)
+        return UIStoryboard(name:  "'" ___VARIABLE_productName___ "'", bundle: Bundle.main)
     }
     
 }
